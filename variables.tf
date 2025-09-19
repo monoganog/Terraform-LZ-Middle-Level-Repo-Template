@@ -13,3 +13,13 @@ variable "github_oauth_token" {
   type        = string
   sensitive   = true
 }
+
+variable "value_stream" {
+  description = "The value stream for this workspace"
+  type        = string
+}
+
+variable "team_name" {
+  description = "The name of the team using this workspace."
+  type        = string
+}
