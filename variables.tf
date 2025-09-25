@@ -8,10 +8,9 @@ variable "github_owner" {
   type        = string
 }
 
-variable "github_oauth_token" {
-  description = "The GitHub OAuth token for VCS integration."
-  type        = string
-  sensitive   = true
+variable "gh_installation_id" {
+  description = "The installation ID for the GitHub App for Terraform Cloud. Find at https://github.com/settings/installations"
+  type        = number
 }
 
 variable "value_stream" {
