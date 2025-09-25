@@ -32,7 +32,7 @@ module "terraform_lz_bottom_level_module" {
   project_name = "My-Project-Name"
 
   // Auto fills relevant information
-  github_oauth_token = var.github_oauth_token
+  github_installation_id = var.github_installation_id
   github_owner = var.github_owner
   organization = var.organization
   team_name = var.team_name
