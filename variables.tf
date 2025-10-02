@@ -8,7 +8,7 @@ variable "github_owner" {
   type        = string
 }
 
-variable "gh_installation_id" {
+variable "github_installation_id" {
   description = "The installation ID for the GitHub App for Terraform Cloud. Find at https://github.com/settings/installations"
   type        = number
 }
