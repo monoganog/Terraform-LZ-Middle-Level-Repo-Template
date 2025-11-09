@@ -25,6 +25,7 @@ provider "tfe" {
 
 
 module "terraform_lz_bottom_level_module" {
+  // Replace this URL with the one from your own private module registry
   source  = "app.terraform.io/ben-monaghan-org/Terraform-LZ-Bottom-Level-Module/tfe"
   version = "~> 1.0.1"
 
