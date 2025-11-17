@@ -8,7 +8,7 @@ You should now have a number of workspaces that are backed up by repos such as t
 2. Once the module has been added to your registry, then replace line 29 "  source  = "app.terraform.io/ben-monaghan-org/Terraform-LZ-Bottom-Level-Module/tfe"" with the URL for the module that now lives in your registry.
 3. Uncomment the code to make use of this module and run the workspace
 
-You should now have provisioned the bottom layer of the Terraform Landing zone concept.
+You should now have provisioned the bottom layer of the Terraform Landing zone concept. You should now have a Project named after your app with 3 Workspaces that represent the different environments, all backed by a git repo. To continue the tutorial navigate to the newly made repo. 
 
 
 ![Terraform Landing Zone middle layer diagram](Terraform-Landing-Zone-Diagram-Middle-Layer.png)
